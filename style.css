@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ffffff;
+}
+
+.todobox {
+    background: #feb1fb;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    padding: 0px 0px;
+    margin: 200px 400px;
+}
+
+.todobox h1 {
+    font-family: "Playwrite AU NSW", cursive;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    margin: 5px 0px;
+}
+
+.todobox .todocontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todobox .todocontent #todoInput {
+    background: transparent;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 10px;
+    width: 300px;
+    margin: 10px 0px;
+}
+
+.todobox .todocontent #todoButton {
+    font-family: "Playwrite AU NSW", cursive;
+    font-size: 10px;
+    font-weight: 400;
+    color: white;
+    background: #f072ec;
+    border: none;
+    padding: 10px 5px;
+}
+
+.todobox #error {
+    font-family: "Playwrite AU NSW", cursive;
+    font-size: 15px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.todobox #ul {
+    text-align: left;
+    font-family: "Playwrite AU NSW", cursive;
+    font-size: 15px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-left: 70px;
+}
+
+.todobox .controls {
+    display: flex;
+    margin: 5px 5px 5px 300px;
+ 
+}
+
+.controls button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#clearAllBtn {
+    padding: 5px;
+    font-family: "Playwrite AU NSW", cursive;
+    font-size: 10px;
+    font-weight: 400;
+    color: white;
+    background: #fd3902;
+    border: none;
+    margin: 5px;
+}
+#deleteSelectedBtn {
+    padding: 5px;
+    font-family: "Playwrite AU NSW", cursive;
+    font-size: 10px;
+    font-weight: 400;
+    color: white;
+    background: #f4af4e;
+    border: none;
+    margin: 5px;
+}
